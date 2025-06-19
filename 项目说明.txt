@@ -1,0 +1,32 @@
+目前完成的页面：
+
+首页      链接：/home ， 文件夹路径：/src/views/Home （首页轮播图以及产品需要从数据库中获取数据，所以不能自行修改）
+合作伙伴  链接：/cp ， 文件夹路径：/src/views/CooperativePartner
+数据中心  链接：/datacenter ， 文件夹路径：/src/views/DataCenter
+登录      链接：/login ， 文件夹路径：/src/views/Login
+注册      链接：/signin ， 文件夹路径：/src/views/SignIn
+渠道代理  链接：/agency ， 文件夹路径：/src/views/Agency
+加入我们  链接：/joinus ， 文件夹路径：/src/views/Joinus
+关于我们  链接：/about ， 文件夹路径：/src/views/About
+联系我们  链接：/callus ， 文件夹路径：/src/views/Callus
+网路设施布点  链接：/nwdistribution ， 文件夹路径：/src/views/NwDistribution
+
+
+修改数据说明：（上面显示已完成的页面数据都可修改）
+1. 修改页面数据首先找到对应的页面文件夹
+2. 在对应文件夹下面找到configData.ts文件
+3. 在configData.ts中找到对应模块修改即可
+注意：登录和注册页面直接在对应的页面文件夹下面的index.vue文件中修改即可，其他页面中的代码不能更改，只需要在configData.ts中修改数据即可
+
+
+
+关于页面中的图片说明:
+1. 项目中的所有静态图片保存在public文件夹下面
+2. 更换页面中的图片步骤
+    2.1 首先将图片保存在public下面的对应文件夹中 （例：如果修改“合作伙伴”里面的图片，合作伙伴页面的文件夹名为：CooperativePartner，那么在public中也找到名字为CooperativePartner的文件夹，然后将图片命名之后保存在下面即可）
+    2.2 保存图片之后然后替换原来的路径即可
+
+
+
+
+目前完成 7个界面

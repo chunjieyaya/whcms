@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24" height="24" style="border-color: rgba(0,0,0,0);border-width: bpx;border-style: undefined" filter="none">
+    <defs><linearGradient id="1,1,rs,1,f0dwf000,f0dwf0rs,f000,00rsh091rs,rsrsrsrsrs" x1="0" x2="100%" y1="0" y2="0" gradientTransform="matrix(6.123233995736766e-17, 1, -1, 6.123233995736766e-17, 24, 0)" gradientUnits="userSpaceOnUse"><stop stop-color="#ff9c53" stop-opacity="1" offset="0"></stop><stop stop-color="#ffffff" stop-opacity="1" offset="1"></stop></linearGradient></defs>
+    <g>
+    <path d="M17.533 10.9741C16.8672 10.5505 15.9961 11.0287 15.9961 11.8178V36.1744C15.9961 36.9635 16.8672 37.4418 17.533 37.0181L36.6704 24.8398C37.2879 24.4468 37.2879 23.5454 36.6704 23.1524L17.533 10.9741Z" fill="url(#1,1,rs,1,f0dwf000,f0dwf0rs,f000,00rsh091rs,rsrsrsrsrs)" stroke="none"></path>
+    </g>
+  </svg>
