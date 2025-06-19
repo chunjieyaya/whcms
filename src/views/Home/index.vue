@@ -14,7 +14,7 @@
   <!-- 基础设施 -->
   <ModuleCard
     bg-color="#f5f7fa"
-    headline-text="安全合规、高速稳定的基础设施建设"
+    headline-text="安全合规111111、高速稳定的基础设施建设"
     des="遍布全球的基础设施节点为用户提供快速稳定、智能可靠的服务 "
   >
     <div class="infrastructure">
