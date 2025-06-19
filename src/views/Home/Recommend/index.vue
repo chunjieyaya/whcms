@@ -58,7 +58,7 @@
 
 let recommendNav = reactive([
     {
-        name: '精选推荐222',
+        name: '精选推荐22233333',
         icon: '/home/recommendIcon1.png'
     },
     {
