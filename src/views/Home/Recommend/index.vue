@@ -65,59 +65,39 @@ let recommendNav = reactive<NavItem[]>([
         icon: '/home/recommendIcon1.png',
         content: [
             { title: '弹性云主机', description: '随时自动获取、弹性伸缩的云服务器资源', tags: ['稳定可靠', '安全保障', '弹性伸缩'], isHot: true },
-            { title: '物理服务器', description: '高性能独立服务器，物理硬件独享', tags: ['高可用', '安全可靠', '按需扩展'], isHot: true },
-            { title: '集群云主机', description: '集群云主机，高性价比，高性能', tags: ['安全可靠', '成本优化'] },
+            { title: '云数据库', description: '高性能、高可用的云数据库服务', tags: ['高可用', '安全可靠', '按需扩展'], isHot: true },
+            { title: '对象存储', description: '海量、安全、低成本的云存储服务', tags: ['安全可靠', '成本优化'] },
             { title: 'CDN加速', description: '快速、稳定的内容分发服务', tags: ['高速稳定', '全球分发'] },
             { title: '域名服务', description: '一站式域名管理与解析服务', tags: ['便捷管理', '快速解析'] },
-            { title: 'DDOSIP防护', description: '海量级别防护提供，确保业务高可用性', tags: ['1T防护接入', '快速恢复业务'] },
-            { title: '云硬盘', description: '提供高性能的云硬盘，极速扩展', tags: ['便捷管理', '快速挂挂载'] },
-            { title: '弹性IP', description: '庞大的海外IP资源，快速部署', tags: ['海量IP', '极速更换'] }
+            { title: 'SSL证书', description: '安全可靠的数字证书服务', tags: ['安全加密', '快速部署'] }
         ]
     },
     {
-        
         name: '云服务器',
         icon: '/home/recommendIcon1.png',
         content: [
-            { title: '香港云主机', description: '企业级云服务器，性能强劲', tags: ['高性能', '稳定可靠'], isHot: true },
-            { title: '美国云主机', description: '适用于各类企业应用场景', tags: ['性价比高', '灵活配置'], isHot: true },
-            { title: '韩国云主机', description: '适合个人和小型网站使用', tags: ['经济实惠', '简单易用'] },
-            { title: '新加坡云主机', description: '适合个人和小型网站使用', tags: ['经济实惠', '简单易用'] },
-            { title: '日本云主机', description: '适合个人和小型网站使用', tags: ['经济实惠', '简单易用'] },
-            { title: '台湾云主机', description: '适合个人和小型网站使用', tags: ['经济实惠', '简单易用'] },
-            { title: '菲律宾云主机', description: '适合个人和小型网站使用', tags: ['经济实惠', '简单易用'] },
-            { title: '泰国云主机', description: '适合个人和小型网站使用', tags: ['经济实惠', '简单易用'] },
+            { title: '高性能云主机', description: '企业级云服务器，性能强劲', tags: ['高性能', '稳定可靠'], isHot: true },
+            { title: '通用型云主机', description: '适用于各类企业应用场景', tags: ['性价比高', '灵活配置'], isHot: true },
+            { title: '入门级云主机', description: '适合个人和小型网站使用', tags: ['经济实惠', '简单易用'] }
         ]
     },
     {
         name: '物理服务器',
         icon: '/home/recommendIcon1.png',
         content: [
-            { title: '物理服务器', description: '独享硬件资源，性能强劲', tags: ['独享资源', '高性能'], isHot: true },
-            { title: '站群服务器', description: '多IP站群服务器，满足特殊需求', tags: ['定制灵活', '批量IP'], isHot: true },
-            { title: '香港物理服务器', description: '适合个人和小型网站使用', tags: ['经济实惠', '简单易用'] },
-            { title: '美国物理服务器', description: '适合个人和小型网站使用', tags: ['经济实惠', '简单易用'] },
-            { title: '日本物理服务器', description: '适合个人和小型网站使用', tags: ['经济实惠', '简单易用'] },
-            { title: '韩国物理服务器', description: '适合个人和小型网站使用', tags: ['经济实惠', '简单易用'] },
-            { title: '菲律物理服务器', description: '适合个人和小型网站使用', tags: ['经济实惠', '简单易用'] },
-            { title: '新加坡物理服务器', description: '适合个人和小型网站使用', tags: ['经济实惠', '简单易用'] },
+            { title: '独享物理机', description: '独享硬件资源，性能强劲', tags: ['独享资源', '高性能'], isHot: true },
+            { title: '定制物理机', description: '按需定制，满足特殊需求', tags: ['定制灵活', '专属服务'], isHot: true }
         ]
     },
     {
         name: '内容分发CDN',
         icon: '/home/recommendIcon1.png',
         content: [
-            { title: '内容分发CDN', description: '全球节点分发，快速响应', tags: ['全球覆盖', '高速响应'], isHot: true },
-            { title: '海外CDN', description: '全球节点分发，快速响应', tags: ['全球覆盖', '高速响应'], isHot: true },
-            { title: '动态加速', description: '专业动态加速服务', tags: ['低延迟', '高带宽']},
-            { title: '视频加速', description: '专业视频加速服务', tags: ['低延迟', '高带宽']},
-            { title: '游戏加速', description: '专业游戏加速服务', tags: ['低延迟', '高带宽']},
-            { title: '边缘计算', description: '专业边缘计算快，全球可用率99%', tags: ['低延迟', '高带宽']},
-            { title: '高防CDN', description: '定制级别防护CDN', tags: ['低延迟', '高带宽']},
-            { title: '优质回国CDN', description: '优化大陆带宽高速回国', tags: ['低延迟', '高带宽']},
+            { title: '全球CDN', description: '全球节点分发，快速响应', tags: ['全球覆盖', '高速响应'], isHot: true },
+            { title: '视频加速', description: '专业视频加速服务', tags: ['低延迟', '高带宽'], isHot: true }
         ]
     },
-   /*{
+    {
         name: '云存储',
         icon: '/home/recommendIcon1.png',
         content: [
@@ -140,20 +120,13 @@ let recommendNav = reactive<NavItem[]>([
             { title: 'DV证书', description: '基础型SSL证书服务', tags: ['快速颁发', '性价比高'], isHot: true },
             { title: 'OV/EV证书', description: '企业级SSL证书服务', tags: ['安全可靠', '品牌信任'], isHot: true }
         ]
-    },*/
+    },
     {
         name: '网络',
         icon: '/home/recommendIcon1.png',
         content: [
             { title: '负载均衡', description: '智能流量分发服务', tags: ['高可用', '自动调度'], isHot: true },
-            { title: 'VPC专有网络', description: '安全隔离的私有网络', tags: ['安全可控', '灵活配置'], isHot: true },
-            { title: '弹性IP', description: '灵活的IP资源，快速部署', tags: ['海量IP', '极速更换'] },
-            { title: 'DDOSIP防护', description: '海量级别防护提供，确保业务高可用性', tags: ['1T防护接入', '快速恢复业务'] },
-            { title: 'AI WAF', description: '通过AIWAF能拦截市面99%攻击类型', tags: ['高速拦截', '处理迅速'] },
-            { title: 'CC 防火墙', description: '拦截CC效率高达99%', tags: ['高效率', '节约成本'] },
-            { title: '智能 DNS', description: '全球智能DNS，快速解析', tags: ['便捷管理', '快速解析'] },
-            { title: '主机监控', description: '主机监控系统，24小时保障业务', tags: ['实时监控', '故障警报'] },
-            
+            { title: 'VPC专有网络', description: '安全隔离的私有网络', tags: ['安全可控', '灵活配置'], isHot: true }
         ]
     }
 ])
