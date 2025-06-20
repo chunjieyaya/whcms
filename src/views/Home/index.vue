@@ -32,7 +32,7 @@
       </div>
       <div class="bt">
         <ul>
-          <li v-for="item in 9">
+          <li v-for="item in 4">
             <div class="img"><img :src="`/home/jc1.png`" alt="" /></div>
             <div class="text">ISO 27001</div>
           </li>
